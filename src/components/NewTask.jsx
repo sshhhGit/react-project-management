@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export default function NewTask({ onAdd }) {
-    const [enteredTask, setEnteredTask] = useState();
+    const [enteredTask, setEnteredTask] = useState('');
 
     function handleChange(envet) {
         setEnteredTask(event.target.value);
@@ -20,7 +20,7 @@ export default function NewTask({ onAdd }) {
             />
             <button className="text-stone-700 hover:text-stone-950"
                 onClick={handleClick}
-            >Add Task</button>
+            >할 일 추가</button>
         </div>
     )
 }

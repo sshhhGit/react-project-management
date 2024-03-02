@@ -18,7 +18,7 @@ export default function SelectedProject({ project, onDelete, onAddTask, onDelete
                     <button className="text-stone-600 hover:text-stone-950"
                         onClick={onDelete}
                     >
-                        Delete
+                        삭제
                     </button>
                 </div>
                 <p className="mb-4 text-stone-400">{formattedDate}</p>
